@@ -10,7 +10,7 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
    - Add, view, and manage income and expense transactions across multiple accounts (bank, mobile money, cash).
 
 2. **Report Generation**:
-   - Generate reports for specific time periods (e.g., weekly, monthly).
+   - Generate reports for specific time periods.
 
 3. **Budget Management**:
    - Set a monthly budget limit and receive notifications when expenses exceed the limit.
@@ -40,15 +40,15 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
 - Chart.js: Render interactive graphs and charts for transaction summaries.
 
 ### Deployment
-- **Frontend**: Deployed on [Netlify](https://www.netlify.com).
-- **Backend**: Deployed on [Render](https://render.com).
-- **Database**: Hosted on MongoDB Atlas.
+- **Frontend** + **Backend**: Deployed on [Netlify](https://www.netlify.com).
+ Deployed on [Render](https://render.com).
+- **Database**: Hosted on MongoDB Compass.
 
 ## Setup Instructions
 
 ### Prerequisites
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) (v16 or later) and npm installed.
-- MongoDB Atlas account.
+- MongoDB Compass account.
 - ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) installed.
 
 ### Steps to Run Locally
@@ -58,7 +58,7 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
    ```
 2. Navigate to the project directory:
    ```bash
-   cd wallet-web-application
+   cd wallet-web
    ```
 3. Install dependencies for both backend and frontend:
    ```bash
@@ -70,7 +70,7 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
 4. Set up environment variables:
    - Create a `.env` file in the `backend` directory with the following:
      ```env
-     MONGO_URI=<your-mongodb-atlas-uri>
+     MONGO_URI=<your-mongodb-compass-uri>
      JWT_SECRET=<your-secret-key>
      ```
 5. Start the backend server:
@@ -83,19 +83,18 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
    cd frontend
    npm start
    ```
-7. Open the application in your browser at `http://localhost:3000`.
+7. Open the application in your browser at `http://localhost:5000`.
 
 ## Deployment
 
 ### Hosting Services
-- **Frontend**: Netlify
-- **Backend**: Render
+- **Frontend** + **Backend**: Netlify
+
 
 ### Steps to Deploy
 1. Push the latest code to your GitHub repository.
-2. Connect the frontend folder to Netlify for deployment.
-3. Connect the backend folder to Render for deployment.
-4. Ensure MongoDB Atlas is properly configured.
+2. Connect the folder to Netlify for deployment.
+3. Ensure MongoDB Atlas is properly configured.
 5. Add deployment links to the README file.
 
 ## Expected Functionalities
