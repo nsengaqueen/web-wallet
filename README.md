@@ -40,9 +40,9 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
 - Chart.js: Render interactive graphs and charts for transaction summaries.
 
 ### Deployment
-- **Frontend** + **Backend**: Deployed on [Netlify](https://www.netlify.com).
- Deployed on [Render](https://render.com).
-- **Database**: Hosted on MongoDB Compass.
+- **Frontend**: [Vercel](https://web-wallet-front-d1pe.vercel.app/).
+- **Backend** : [Render](https://web-wallet-back.onrender.com/).
+- **Database**: Hosted on MongoDB Atlas.
 
 ## Setup Instructions
 
@@ -88,7 +88,8 @@ The Wallet Web Application is designed to help users like Eric, an employee of C
 ## Deployment
 
 ### Hosting Services
-- **Frontend** + **Backend**: Netlify
+- **Frontend**: Vercel
+- **Backend**: Render
 
 
 ### Steps to Deploy
@@ -116,6 +117,6 @@ This project is licensed under the MIT License.
 ---
 
 ### Deployment Links
-- Frontend: [Frontend Live](#)
-- Backend: [Backend Live](#)
+- Frontend: [https://web-wallet-front-d1pe.vercel.app/](#)
+- Backend: [https://web-wallet-back.onrender.com/](#)
 
